@@ -1,0 +1,7 @@
+<!-- templates/socialaccount_login.html -->
+{% load allauth %}
+
+<h1>Login with Social Account</h1>
+<a href="{% provider_login_url 'google' %}">Login with Google</a>
+<a href="{% provider_login_url 'facebook' %}">Login with Facebook</a>
+<!-- Add other social media login links as required -->

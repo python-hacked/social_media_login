@@ -1,0 +1,7 @@
+
+<h1>Profile</h1>
+<ul>
+  {% for social_account in social_accounts %}
+    <li>{{ social_account.provider }}: {{ social_account.uid }}</li>
+  {% endfor %}
+</ul>
